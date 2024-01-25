@@ -5,7 +5,7 @@ import getFavoriteListings from "../action/getFavoriteListings";
 import FavoritesClient from "./FavoritesClient";
 
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
 const ListingPage = async () => {
 

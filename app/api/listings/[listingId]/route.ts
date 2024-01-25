@@ -4,7 +4,7 @@ import getCurrentUser from "@/app/action/getCurrentUser";
 import prisma from "@/app/libs/prismadb";
 
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
 interface IParams {
     listingId?: string;

@@ -15,8 +15,6 @@ import Heading from "../Heading";
 import Calendar from "../inputs/Calendar";
 import Counter from "../inputs/Counter";
 
-export const dynamicParams = true;
-
 enum STEPS {
     LOCATION = 0,
     DATE = 1,

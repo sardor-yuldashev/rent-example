@@ -6,7 +6,7 @@ import ListingClient from "./ListingClient";
 import getReservations from "@/app/action/getReservations";
 
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
 interface IParams {
     listingId?: string;

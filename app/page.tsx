@@ -6,7 +6,7 @@ import EmptyState from "./components/EmptyState";
 import ListingCard from "./components/listings/ListingCard";
 
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
 interface HomeProps {
     searchParams: IListingsParams

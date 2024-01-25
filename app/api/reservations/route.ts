@@ -3,7 +3,7 @@ import prisma from "@/app/libs/prismadb";
 import getCurrentUser from "@/app/action/getCurrentUser";
 
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
 export async function POST(
     request: Request
