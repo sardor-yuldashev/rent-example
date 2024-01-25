@@ -12,6 +12,9 @@ import getCurrentUser from './action/getCurrentUser';
 import RentModal from './components/modals/RentModal';
 import SearchModal from './components/modals/SearchModal';
 
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 const nunito = Nunito({
     subsets: ["latin"],
 });

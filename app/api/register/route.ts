@@ -2,6 +2,9 @@ import bcrypt from "bcrypt";
 import { NextResponse } from "next/server";
 import prisma from "@/app/libs/prismadb";
 
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 export async function POST (
     request: Request
 ) {
